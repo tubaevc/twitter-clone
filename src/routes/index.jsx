@@ -42,7 +42,7 @@ const routes = createBrowserRouter([
         element: <NotFound />,
       },
       {
-        path: "/slug",
+        path: ":slug",
         element: <Profile />,
       },
     ],

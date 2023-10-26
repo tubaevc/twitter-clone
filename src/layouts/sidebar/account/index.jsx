@@ -1,5 +1,6 @@
-import { Popover } from "@headlessui/react";
+import { Popover, Transition } from "@headlessui/react";
 import { useAccount } from "../../../store/auth/hooks";
+import More from "./more";
 export default function Account() {
   const account = useAccount();
   return (
@@ -22,8 +23,18 @@ export default function Account() {
             />
           </svg>
         </Popover.Button>
-
-        <Popover.Panel>açılacak yer</Popover.Panel>
+        <Transition
+          enter="transition duration-200 ease-out"
+          enterFrom="transform opacity-0"
+          enterTo="transform opacity-100"
+          leave="transition duration-200 ease-out"
+          leaveFrom="transform opacity-100"
+          leaveTo="transform opacity-0"
+        >
+          <Popover.Panel className="py-3 absolute bottom-[80px] w-[300px] left-1/2 -translate-x-1/2 bg-black shadow-box rounded-2xl">
+            {({ close }) => <More close={close} />}
+          </Popover.Panel>
+        </Transition>
       </Popover>
     </div>
   );

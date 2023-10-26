@@ -7,7 +7,22 @@ const initialState = {
     avatar:
       "https://i.pinimg.com/564x/84/dc/68/84dc68eb7b84ceeb859ce1cbd448220d.jpg",
   },
-  accounts: [],
+  accounts: [
+    {
+      id: 1,
+      username: "ln4",
+      fullName: "lando",
+      avatar:
+        "https://i.pinimg.com/564x/84/dc/68/84dc68eb7b84ceeb859ce1cbd448220d.jpg",
+    },
+    {
+      id: 2,
+      username: "lec",
+      fullName: "leclerc",
+      avatar:
+        "//lh3.googleusercontent.com/YfcqVy7A3kSzK7iEQ0pvejZ3Vpo5MJd_ParWmm1AhjeOvCZMfpJv0i7VyYznemGiUKVzScXI0y_X3be1mFnliGw=s750",
+    },
+  ],
 };
 const auth = createSlice({
   name: "auth",
