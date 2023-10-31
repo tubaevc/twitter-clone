@@ -1,18 +1,22 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "../sidebar";
 import RightBar from "./rightbar";
+import { useModal } from "~/store/modal/hooks";
+import Modal from "../../modals";
+import AppearanceModal from "../../modals/appearance";
+export default function MainLayout() {
+  const modal = useModal();
 
-export default function MainLayout(){
-    return(
-        <div className="w-[1265px] mx-auto flex">
-            
-            <Sidebar/>
-            <div className="flex-1 flex gap-[30px]">
-            <main className="flex-1 max-w-[600px] border-x">
-            <Outlet/>
-            </main>
-            <RightBar/>
-            </div>
-        </div>
-    )
+  return (
+    <div className="w-[1265px] mx-auto flex">
+      {/* {modal && <Modal />} */}
+      <Sidebar />
+      <div className="flex-1 flex gap-[30px]">
+        <main className="flex-1 max-w-[600px] border-x">
+          <Outlet />
+        </main>
+        <RightBar />
+      </div>
+    </div>
+  );
 }
