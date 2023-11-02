@@ -14,12 +14,13 @@ export default function Button({
     {
       type: "button",
       className: classNames(
-        "rounded-full flex items-center justify-center font-bold transition-colors",
+        "rounded-full flex items-center justify-center font-bold transition-all",
         {
           "px-4 h-8 text-sm": size === "small",
           "px-4 h-9": size === "normal",
           "px-4 h-[52px] text-[17px] w-full": size === "large",
-          "bg-[#1d9bf0] hover:bg-[#1a8cd8] text-white": variant === "primary",
+          "bg-[color:var(--color-primary)] hover:bg-opcity-90text-white":
+            variant === "primary",
           "bg-[#eff3f4] hover:bg-[#d7dbdc] text-black": variant === "white",
           "border border-[#b4b4b4] hover:border-[#67070f] hover:bg-[#f4212e1a] hover:text-[#f4212e]":
             variant === "white-outline",
