@@ -18,7 +18,7 @@ export default function More() {
           <div className="pr-4 text-xl">More</div>
         </div>
       </Popover.Button>
-      <Popover.Panel className="w-[318px] absolute bottom-0 left-0 bg-black shadow-box rounded-xl">
+      <Popover.Panel className="w-[318px] absolute bottom-0 left-0 bg-[color:var(--background-primary)]  shadow-box rounded-xl">
         <button className="px-4 h-14 w-full transition-colors inline-flex items-center gap-5 hover:bg-[color:var(--background-secondary)]]">
           <div className="w-[26.25px] h-[26.25px] relative">
             <svg viewBox="0 0 24 24" width={24} height={24}>
@@ -52,7 +52,7 @@ export default function More() {
           </div>
           <div className="pr-4 text-xl font-bold">Monetization</div>
         </button>
-        <div className="h-px bg-[#2f3336] my-0.5 w-[89%] mx-auto"></div>
+        <div className="h-px bg-[color:var(--background-third)] my-0.5 w-[89%] mx-auto"></div>
         <Disclosure>
           {({ open }) => (
             <>
