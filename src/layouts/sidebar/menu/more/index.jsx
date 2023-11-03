@@ -72,7 +72,7 @@ export default function More() {
                   />
                 </svg>
               </Disclosure.Button>
-              <Disclosure.Panel className="text-gray-500">
+              <Disclosure.Panel>
                 <Link
                   to="/"
                   className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[[color:var(--background-secondary)]] transition-color"
@@ -108,7 +108,7 @@ export default function More() {
                   />
                 </svg>
               </Disclosure.Button>
-              <Disclosure.Panel className="text-gray-500">
+              <Disclosure.Panel>
                 <Link
                   to="/"
                   className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[color:var(--background-secondary)] transition-colors "
@@ -144,7 +144,7 @@ export default function More() {
                   />
                 </svg>
               </Disclosure.Button>
-              <Disclosure.Panel className="text-gray-500">
+              <Disclosure.Panel>
                 <Link
                   to="/"
                   className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[color:var(--background-secondary)] transition-colors "
