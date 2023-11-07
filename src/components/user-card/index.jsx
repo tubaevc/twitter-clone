@@ -5,7 +5,7 @@ export default function UserCard({ user }) {
   const [following, setFollowing] = useState(false);
 
   return (
-    <button className="py-3 px-4 flex gap-3 transition-colors hover:bg-white/[0.03]">
+    <button className="py-3 px-4 flex gap-3 transition-colorshover:bg-[color:var(--background-third)]">
       <img
         src={user.avatar}
         className="w-10 h-10 rounded-full object-cover"
@@ -15,7 +15,7 @@ export default function UserCard({ user }) {
         <div className="leading-5 font-bold flex items-center">
           {user.fullName}
         </div>
-        <div className="text-[15px] text-[color:var(--color-base-secondary)]">
+        <div className="text-[15px] text-[color:var(--color-base-secondary)] truncate">
           @{user.username}
         </div>
       </div>
