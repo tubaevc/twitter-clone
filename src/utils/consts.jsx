@@ -185,14 +185,14 @@ export const topics = [
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "tag",
-      value: "dilanpolat",
+      value: "LasVegasGP",
     },
   },
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "Anakin",
     },
     postCount: 15640,
   },
@@ -200,14 +200,14 @@ export const topics = [
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "tag",
-      value: "dilanpolat",
+      value: "F1",
     },
   },
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "The Hunger Games",
     },
     postCount: 15640,
   },
@@ -215,14 +215,14 @@ export const topics = [
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "tag",
-      value: "dilanpolat",
+      value: "TheMarvels",
     },
   },
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "Peter Parker",
     },
     postCount: 15640,
   },
@@ -230,14 +230,14 @@ export const topics = [
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "tag",
-      value: "dilanpolat",
+      value: "F1",
     },
   },
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "The Hunger Games",
     },
     postCount: 15640,
   },
@@ -245,14 +245,14 @@ export const topics = [
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "tag",
-      value: "dilanpolat",
+      value: "TheMarvels",
     },
   },
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "Peter Parker",
     },
     postCount: 15640,
   },
@@ -260,14 +260,14 @@ export const topics = [
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "tag",
-      value: "dilanpolat",
+      value: "F1",
     },
   },
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "The Hunger Games",
     },
     postCount: 15640,
   },
@@ -275,14 +275,29 @@ export const topics = [
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "tag",
-      value: "dilanpolat",
+      value: "TheMarvels",
+    },
+  },
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "tag",
+      value: "F1",
     },
   },
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "The Hunger Games",
+    },
+    postCount: 15640,
+  },
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Peter Parker",
     },
     postCount: 15640,
   },
@@ -290,14 +305,14 @@ export const topics = [
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "tag",
-      value: "dilanpolat",
+      value: "TheMarvels",
     },
   },
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "Peter Parker",
     },
     postCount: 15640,
   },

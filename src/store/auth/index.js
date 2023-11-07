@@ -3,7 +3,7 @@ const initialState = {
   currentAccount: {
     id: 1,
     username: "lando",
-    fullName: "./lando",
+    fullName: "Lando Norris",
     avatar:
       "https://i.pinimg.com/564x/84/dc/68/84dc68eb7b84ceeb859ce1cbd448220d.jpg",
   },
